@@ -152,10 +152,10 @@
 					05 01 00 00 14 00 01 28
 					05 01 00 00 78 00 01 10];
 				somc,mdss-dsi-hbm-on-command = [
-					39 01 00 00 00 00 02 53 E0
+					39 01 00 00 00 00 02 53 E8
 					];
 				somc,mdss-dsi-hbm-off-command = [
-					39 01 00 00 11 00 02 53 20
+					39 01 00 00 11 00 02 53 28
 					];
 				somc,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 				somc,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
@@ -334,10 +334,10 @@
 					05 01 00 00 14 00 01 28
 					05 01 00 00 78 00 01 10];
 				somc,mdss-dsi-hbm-on-command = [
-					39 01 00 00 00 00 02 53 E0
+					39 01 00 00 00 00 02 53 E8
 					];
 				somc,mdss-dsi-hbm-off-command = [
-					39 01 00 00 11 00 02 53 20
+					39 01 00 00 11 00 02 53 28
 					];
 				somc,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 				somc,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
@@ -515,10 +515,10 @@
 					05 01 00 00 14 00 01 28
 					05 01 00 00 78 00 01 10];
 				somc,mdss-dsi-hbm-on-command = [
-					39 01 00 00 00 00 02 53 E0
+					39 01 00 00 00 00 02 53 E8
 					];
 				somc,mdss-dsi-hbm-off-command = [
-					39 01 00 00 11 00 02 53 20
+					39 01 00 00 11 00 02 53 28
 					];
 				somc,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 				somc,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
@@ -727,10 +727,10 @@
 					05 01 00 00 14 00 01 28
 					05 01 00 00 78 00 01 10];
 				somc,mdss-dsi-hbm-on-command = [
-					39 01 00 00 00 00 02 53 E0
+					39 01 00 00 00 00 02 53 E8
 					];
 				somc,mdss-dsi-hbm-off-command = [
-					39 01 00 00 11 00 02 53 20
+					39 01 00 00 11 00 02 53 28
 					];
 				somc,mdss-dsi-hbm-on-command-state = "dsi_lp_mode";
 				somc,mdss-dsi-hbm-off-command-state = "dsi_lp_mode";
