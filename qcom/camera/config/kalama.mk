@@ -7,8 +7,11 @@ SOMC_PLATFORM := yodo
 ifeq ($(SOMC_PLATFORM), yodo)
 
 ifeq ($(SOMC_TARGET_PRODUCT),pdx234)
+<<<<<<< HEAD
 dtb-$(CONFIG_ARCH_KALAMA) += kalama-camera.dtbo
 
+=======
+>>>>>>> bbn/lineage-21
 dtbo-$(CONFIG_ARCH_KALAMA)		+= kalama-camera-sensor-pdx234.dtbo
 endif
 
