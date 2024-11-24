@@ -14,3 +14,4 @@ dtbo-$(CONFIG_ARCH_CROW) += crow-camera.dtbo \
 endif
 
 dtbo-$(CONFIG_MACH_SONY_PDX234) += sony/kalama-camera-sensor-pdx234.dtbo
+dtbo-$(CONFIG_MACH_SONY_PDX237) += sony/kalama-camera-sensor-pdx237.dtbo

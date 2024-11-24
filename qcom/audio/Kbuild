@@ -19,6 +19,7 @@ dtbo-y += \
                  kalama-sg-audio-hhg.dtbo
 endif
 dtbo-(CONFIG_MACH_SONY_PDX234) += sony/somc-yodo-audio-pdx234.dtbo
+dtbo-(CONFIG_MACH_SONY_PDX237) += sony/somc-yodo-audio-pdx237.dtbo
 endif
 
 ifeq ($(CONFIG_ARCH_SA8155), y)
