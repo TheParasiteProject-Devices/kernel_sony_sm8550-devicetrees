@@ -1,5 +1,4 @@
-KALAMA_BASE_DTB += ../qcom/kalama.dtb ../qcom/kalama-v2.dtb ../qcom/kalama-sg.dtb ../qcom/kalama-qcm.dtb
-KALAMA_APQ_BASE_DTB += ../qcom/kalamap.dtb ../qcom/kalamap-v2.dtb ../qcom/kalamap-sg.dtb ../qcom/kalamap-qcs.dtb
+KALAMA_BASE_DTB += ../qcom/kalama.dtb ../qcom/kalama-v2.dtb ../qcom/kalama-sg.dtb
 
 ifeq ($(CONFIG_MACH_SONY_PDX234),y)
 SOMC_KALAMA_BOARDS += \
@@ -9,8 +8,8 @@ SOMC_KALAMA_BOARDS += \
 	kalama-yodo-pdx237_generic-overlay.dtbo
 endif
 
-kalama-overlays-dtb-y += $(SOMC_KALAMA_BOARDS) $(KALAMA_BASE_DTB) $(KALAMA_APQ_BASE_DTB)
-dtb-y += $(SOMC_KALAMA_BOARDS) $(KALAMA_BASE_DTB) $(KALAMA_APQ_BASE_DTB)
+kalama-overlays-dtb-y += $(SOMC_KALAMA_BOARDS) $(KALAMA_BASE_DTB)
+dtb-y += $(SOMC_KALAMA_BOARDS) $(KALAMA_BASE_DTB)
 
 always-y	:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
